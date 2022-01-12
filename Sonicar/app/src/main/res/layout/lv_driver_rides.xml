@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/line2"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_dest"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/colorAccent"
+            android:textSize="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_dep"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/colorAccent"
+            android:textSize="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_data"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/colorAccent"
+            android:textSize="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_nrSeatsDispon"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/colorAccent"
+            android:textSize="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical">
+
+        <Button
+            android:id="@+id/btn_see_travelers"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="15dp"
+
+            style="@style/ButtonStyle"
+            android:text="See travelers" />
+    </LinearLayout>
+
+</LinearLayout>

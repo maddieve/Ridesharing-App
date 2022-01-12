@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Fragment1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_marginTop="160dp"
+        android:background="#FFFFFF"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/fragment1"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_log_in"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/roundbtn"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/continua"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="14sp" />
+
+
+</FrameLayout>

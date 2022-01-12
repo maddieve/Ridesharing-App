@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLightBackground"
+    tools:context=".FragmentOfferRide">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="679dp"
+        android:layout_height="142dp"
+        android:src="@drawable/asset_1" />
+
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/tv_date"
+        android:textAlignment="textStart"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/tv_seekbar"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="@color/colorAccent" />
+
+    <Spinner
+        android:id="@+id/spinner_departure"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="200dp" />
+
+    <Spinner
+        android:id="@+id/spinner_destination"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="255dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="100dp"
+        android:max="8"
+        android:min="1"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="45dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/icon_date" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="45dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/icon_group" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="43dp"
+        android:layout_height="29dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/icon_location" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="43dp"
+        android:layout_height="29dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/icon_location" />
+
+    <Button
+        android:id="@+id/btn_create_ride"
+        style="@style/ButtonStyle"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="330dp"
+        android:text="OFFER A RIDE" />
+
+</FrameLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@drawable/icon_dash"
+        android:title="@string/nav_dashboard" />
+    <item
+        android:id="@+id/nav_rides"
+        android:icon="@drawable/icon_curse"
+        android:title="@string/nav_rides" />
+    <item
+        android:id="@+id/nav_history"
+        android:icon="@drawable/icon_istoric"
+        android:title="@string/nav_history" />
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/icon_profil"
+        android:title="@string/nav_profile" />
+</menu>

@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">SoniCar</string>
+    <string name="btn_sign_in">Sign up</string>
+    <string name="btn_log_in">Log in</string>
+    <string name="et_lastname">Last Name</string>
+    <string name="et_firstname">First Name</string>
+    <string name="et_birthdate">Birth date</string>
+    <string name="et_phone">Phone number</string>
+    <string name="et_email">Email</string>
+    <string name="btn_signInActivity">Next</string>
+    <string name="et_username">Username</string>
+    <string name="btn_save_cont">Save</string>
+    <string name="et_password">Password</string>
+    <string name="fragment1">Account created successfully! </string>
+    <string name="btn_choose_ride">Choose a ride</string>
+    <string name="btn_offer_ride">Offer a ride</string>
+    <string name="popular_destinations">Popular Destinations</string>
+    <string name="they_say">They are saying...</string>
+    <string name="tv_date">DATE</string>
+    <string name="txt_checkBox">I agree to receive emails regarding the latest and greatest offerings from SoniCar</string>
+    <string name="btn_search_ride">Search for a ride</string>
+    <string name="txt_offer_ride">offerRide</string>
+    <string name="txt_choose_date">Choose a date!</string>
+    <string name="txt_genRides">PICK YOUR RIDE</string>
+    <string name="txt_offRides">YOUR RIDES</string>
+    <string name="btn_edit_ride">EDIT</string>
+    <string name="txt_choose_nrPass">Choose a number of passengers!</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_rides">Rides</string>
+    <string name="nav_history">History</string>
+    <string name="review1">So far so good ! I had used SoniCar only 2 times, and both rides were super! The price was proportional to the quality of my ride! At this moment im waiting for my 3rd ride and i hope all goes well as previous times..</string>
+    <string name="log_in">LOG IN</string>
+    <string name="to_continue">TO CONTINUE</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="for_your_account">FOR YOUR ACCOUNT</string>
+    <string name="one_more_step">ONE MORE STEP</string>
+    <string name="set_up_your_log_in_credentials">SET UP YOUR LOG IN CREDENTIALS</string>
+    <string name="continua">CONTINUE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="daniel">Daniel</string>
+    <string name="daniel_mail">daniel1@gmail.com</string>
+    <string name="about">ABOUT</string>
+    <string name="get_ride">GET RIDE</string>
+    <string name="marie">Marie L.</string>
+    <string name="marie_mail">marie.l@gmail.com</string>
+    <string name="luna">Luna Mia</string>
+    <string name="luna_mail">luna.mia9@gmail.com</string>
+    <string name="review2">I meet many people and it is generally an excellent experience with a majority of highly educated people of all ages, so I definitely recommend it to anyone.</string>
+    <string name="review3"> SoniCar è un idea geniale per condividere viaggi ed esperienze on the road!! I love it</string>
+    <string name="see_more">More info</string>
+    <string name="profile">PROFILE</string>
+    <string name="save">SAVE</string>
+    <string name="log_out">Log out</string>
+    <string name="your_rating">Your Rating:</string>
+    <string name="rides_offered">RIDES OFFERED</string>
+    <string name="rides_reserved">RIDES RESERVED</string>
+    <string name="travelers">TRAVELERS</string>
+    <string name="title_history">HISTORY</string>
+
+
+</resources>

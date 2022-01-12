@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundal_login"
+    android:orientation="vertical"
+    tools:context=".AboutRideActivity">
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorLightBackground">
+
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp"
+            android:layout_marginStart="10dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_phone"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp"
+            android:layout_marginStart="10dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_email"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp"
+            android:layout_marginStart="10dp"
+            android:layout_height="wrap_content" />
+
+
+        <!--        date cursa-->
+        <TextView
+            android:id="@+id/tv_dest"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/colorAccent"
+            android:layout_marginStart="10dp"
+            android:textSize="18dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_dep"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/colorAccent"
+            android:layout_marginStart="10dp"
+            android:textSize="18dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_data"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_nrSeatsDispon"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/btn_get_ride"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/get_ride"
+        style="@style/ButtonStyle"
+        android:layout_marginStart="160dp"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="429dp" />
+</LinearLayout>
+
+</LinearLayout>
